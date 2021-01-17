@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "furnitures",
   "info": {
-    "name": "furniture"
+    "name": "furniture",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -37,8 +38,11 @@
       "required": false
     },
     "category": {
-      "via": "furnitures",
-      "model": "category"
+      "model": "category",
+      "via": "furnitures"
+    },
+    "img": {
+      "type": "string"
     }
   }
 }
