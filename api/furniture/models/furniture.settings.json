@@ -37,8 +37,8 @@
       "required": false
     },
     "category": {
-      "model": "category",
-      "via": "furnitures"
+      "via": "furnitures",
+      "model": "category"
     }
   }
 }
